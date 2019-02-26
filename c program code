@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+int meter,feet,centimeter;
+float km,inch;
+printf("Enter the vlaue of km:");
+scanf("%f",&km);
+meter=1000*km;
+feet=3280*km;
+inch=39370.1*km;
+centimeter=100000*km;
+printf("Meter=%d\nFeet=%d\nInch=%f\nCentimeter=%d",meter,feet,inch,centimeter);
+getch();
+}
