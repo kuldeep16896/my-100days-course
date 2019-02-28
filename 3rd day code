@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main(){
+int bs;
+float da,hr,gs;
+printf("Enter the value of bs: ");
+scanf("%d",&bs);
+da=(40*bs)/100;
+hr=(20*bs)/100;
+gs=bs-(da+hr);
+printf("%f:",gs);
+
+}
